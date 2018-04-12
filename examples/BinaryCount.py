@@ -4,7 +4,7 @@ import time
 sys.path.insert(0, '../src/')
 from hammie import *
 
-bot = Hammie("192.168.4.1", 6000,True)
+bot = Hammie("192.168.4.1", 6000)
 
 
 bot.TurnOff("A", 2)
