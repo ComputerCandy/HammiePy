@@ -101,7 +101,7 @@ class Hammie:
         self.sendRawNR(msg)
 
     def PWMSignal(self, Port, Pin, DutyPercentage):
-        msg = "svs " + Port + str(Pin) + " " + str(DutyPercentage)
+        msg = "pwm " + Port + str(Pin) + " " + str(DutyPercentage)
         msg = msg.lower()
         self.sendRawNR(msg)
 
