@@ -150,7 +150,7 @@ class Hammie:
     def Turn(self,angle):
         self.sendRawNR("turn" + str((angle / 1.8) - 50))
 
-    def SterringUrgency(self, Step):
+    def SteeringUrgency(self, Step):
         self.sendRawNR("stur " + str(speedStep))
 
     def RecenterTime(self, time):
