@@ -96,7 +96,7 @@ class Hammie:
         self.sendRawNR(msg)
 
     def ServoPositonToggle(self, Port, Pin, Position1, Position2):
-        msg = "svs " + Port + str(Pin) + " " + str(Position1) + " " + str(Position2)
+        msg = "svt " + Port + str(Pin) + " " + str(Position1) + " " + str(Position2)
         msg = msg.lower()
         self.sendRawNR(msg)
 
